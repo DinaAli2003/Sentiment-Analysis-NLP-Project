@@ -56,5 +56,5 @@ Thumbs.db
 # If datasets are large
 data/
 
-# Demo videos
 *.mp4
+!Attachments/Sentiment Analysis Project — DEMO.mp4
