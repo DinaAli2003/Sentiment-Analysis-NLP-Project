@@ -1,0 +1,39 @@
+{
+  "vocab_size": 10000,
+  "max_len": 200,
+  "hmm_vocab": 3000,
+  "transformer_max_len": 256,
+  "best_model": "Ensemble (Stacking)",
+  "tuned_hyperparameters": {
+    "traditional_ml_family": {
+      "Logistic Regression": {
+        "C": 10.0
+      },
+      "Naive Bayes": {
+        "alpha": 0.5
+      },
+      "SVM (Linear)": {
+        "C": 1.0
+      },
+      "Random Forest": {
+        "max_depth": 30,
+        "n_estimators": 400
+      },
+      "XGBoost": {
+        "learning_rate": 0.05,
+        "max_depth": 4,
+        "n_estimators": 400
+      }
+    },
+    "hmm_n_states": 6,
+    "recurrent_family": {
+      "embed_dim": 128,
+      "hidden_units": 32,
+      "dropout": 0.3725382311125445,
+      "learning_rate": 0.0003253425182484388,
+      "batch_size": 32
+    },
+    "transformer_learning_rate": 5e-05,
+    "transformer_epochs": 3
+  }
+}
