@@ -76,7 +76,7 @@ Deployment (API & Streamlit)
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/your-username/sentiment-analysis-project.git
+git clone https://github.com/DinaAli2003/Sentiment-Analysis-NLP-Project.git
 cd sentiment-analysis-project
 
 python -m venv .venv
