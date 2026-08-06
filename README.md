@@ -33,6 +33,7 @@ Sentiment Analysis Project/
 ├── notebooks/      # Experiments and analysis
 ├── src/            # Source code
 ├── streamlit/      # Streamlit application
+├── attachments
 ├── requirements.txt
 └── README.md
 ```
